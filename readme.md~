@@ -1,13 +1,15 @@
-## Android DB Test
+## Simple Geodata matcher
 
 ### Use
-Demonstrates the use of a database in a sample Android project.
-Just run it on a real or virtual device using eclipse.
+
+With a database with the 28'000 most popular places in Switzerland, *geodata.py* tries to find a match for each city listed in the file cities.txt.
+It outputs the coordinates of the cities, if found, for further use.
 
 ### Requirements
 
- * Eclipse (for building)
- * The Android SDK
+ * Python
+ * sqlight3
+ * re (regex python import)
 
 ### License
 
